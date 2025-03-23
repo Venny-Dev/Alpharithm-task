@@ -1,5 +1,4 @@
 import Hero from "./components/Hero";
-// import ServiceCarousel from "./components/ServiceCarousel";
 import Services from "./components/Services";
 import TrustedCompaniesAndAI from "./components/TrustedCompaniesAndAI";
 
@@ -9,7 +8,6 @@ function App() {
       <Hero />
       <TrustedCompaniesAndAI />
       <Services />
-      {/* <ServiceCarousel /> */}
     </div>
   );
 }

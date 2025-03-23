@@ -73,7 +73,7 @@ function Services() {
   return (
     <div className="px-5 ">
       <motion.div
-        className="border max-w-[730px] mx-auto rounded-[12px] border-[#E4E4E7] p-1 mb-[33px]"
+        className="border max-w-[730px] mx-auto rounded-[12px] border-[#E4E4E7] p-1 mb-[33px] w-fit"
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}
