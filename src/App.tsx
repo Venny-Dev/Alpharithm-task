@@ -4,7 +4,7 @@ import TrustedCompaniesAndAI from "./components/TrustedCompaniesAndAI";
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full max-w-[1700px] mx-auto">
       <Hero />
       <TrustedCompaniesAndAI />
       <Services />
